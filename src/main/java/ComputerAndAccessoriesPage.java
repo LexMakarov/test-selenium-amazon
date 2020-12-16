@@ -12,7 +12,7 @@ public class ComputerAndAccessoriesPage {
         this.driver = driver;
     }
 
-    private By itemBy = By.xpath("//div[contains(@class, 's-main-slot s-result-list s-search-results')]//a[@class='a-link-normal a-text-normal']"); //proverit' hz kak rabotaet
+    private By itemBy = By.xpath("//div[contains(@class, 's-main-slot s-result-list s-search-results')]//a[@class='a-link-normal a-text-normal']");
 
     public ItemPage clickOnItem(){
 
